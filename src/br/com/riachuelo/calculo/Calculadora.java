@@ -3,7 +3,6 @@ package br.com.riachuelo.calculo;
 import java.text.DecimalFormat;
 
 import javax.swing.JOptionPane;
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 
 public class Calculadora {
 	
