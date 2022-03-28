@@ -1,10 +1,10 @@
-package br.com.riachuelo.calculo.test;
+package test.resources;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import br.com.riachuelo.calculo.Divisao;
+import main.resources.Divisao;
 
 public class DivisaoTest {
 

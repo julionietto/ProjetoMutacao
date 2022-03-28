@@ -1,4 +1,4 @@
-package br.com.riachuelo.calculo;
+package main.resources;
 
 public class Multiplicacao {
 	public Multiplicacao() {

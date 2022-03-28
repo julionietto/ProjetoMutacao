@@ -1,4 +1,4 @@
-	<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ProjetoMutacao</groupId>
   <artifactId>ProjetoMutacao</artifactId>
@@ -14,6 +14,11 @@
         </configuration>
       </plugin>
       <plugin>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.11</version>
+      </plugin>
+      <plugin>
     	<groupId>org.pitest</groupId>
     	<artifactId>pitest-maven</artifactId>
     	<version>1.7.5</version>
@@ -24,6 +29,14 @@
           <targetTests>
             <param>br.com.riachuelo.calculo.test*</param>
           </targetTests>
+          <skip>false</skip>
+            <reportsDirectory>C:\Users\4052131\eclipse-workspace\ProjetoMutacao\target\results</reportsDirectory>
+            <sourceDataFormats>
+              <sourceDataFormat>HTML</sourceDataFormat>
+            </sourceDataFormats>
+            <siteReportName>mutacao-report</siteReportName>
+            <siteReportDescription>poc-calculadora</siteReportDescription>
+            <siteReportDirectory>C:\Users\4052131\eclipse-workspace\ProjetoMutacao\target\results</siteReportDirectory>
         </configuration>
  	  </plugin>
     </plugins>

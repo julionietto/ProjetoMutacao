@@ -1,4 +1,4 @@
-package br.com.riachuelo.calculo;
+package main.resources;
 
 import java.text.DecimalFormat;
 
@@ -28,7 +28,7 @@ public class Calculadora {
 			try {
 				pNumber = Double.parseDouble(JOptionPane.showInputDialog(null, 
 						                                                 conta, 
-						                                                 "Entre com o primeiro número", 
+						                                                 "Entre com o primeiro numero", 
 						                                                 JOptionPane.INFORMATION_MESSAGE).replace(',', '.'));
 			} catch (Exception e) {
 				if (pNumber == 0) {
@@ -54,12 +54,12 @@ public class Calculadora {
 				try {
 					sNumber = Double.parseDouble(JOptionPane.showInputDialog(null, 
 							                                                 conta, 
-							                                                 "Entre com o segundo número ", 
+							                                                 "Entre com o segundo numero ", 
 							                                                 JOptionPane.INFORMATION_MESSAGE).replace(',', '.'));
 					
 					if (sNumber == 0) {
 						if (oper.equalsIgnoreCase("/")) {
-							JOptionPane.showMessageDialog(null, "Divisão por ZERO é ílegal", oper, JOptionPane.ERROR_MESSAGE);
+							JOptionPane.showMessageDialog(null, "Divisao por ZERO invalida", oper, JOptionPane.ERROR_MESSAGE);
 						}
 					} else {
 						conta = conta + " " + String.valueOf(sNumber);
