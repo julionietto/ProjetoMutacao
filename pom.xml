@@ -10,7 +10,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>17</release>
+          <release>11</release>
         </configuration>
       </plugin>
       <plugin>
@@ -23,12 +23,6 @@
     	<artifactId>pitest-maven</artifactId>
     	<version>1.7.5</version>
     	<configuration>
-          <targetClasses>
-            <param>br.com.riachuelo.calculo*</param>
-          </targetClasses>
-          <targetTests>
-            <param>br.com.riachuelo.calculo.test*</param>
-          </targetTests>
           <skip>false</skip>
             <reportsDirectory>C:\Users\4052131\eclipse-workspace\ProjetoMutacao\target\results</reportsDirectory>
             <sourceDataFormats>
