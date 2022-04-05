@@ -11,9 +11,9 @@ public class MultiplicacaoTest {
 	@Test
 	public void test() {
 		Multiplicacao mult = new Multiplicacao();	
-		double resultado = mult.doCalcular(1, 1);
+		double resultado = mult.doCalcular(3, 27);
 		
-		double checagem = 1 * 1;
+		double checagem = 3 * 27;
 		
 		assertEquals(String.valueOf(resultado), String.valueOf(checagem));
 	}

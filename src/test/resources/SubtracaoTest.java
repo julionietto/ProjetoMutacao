@@ -10,11 +10,10 @@ public class SubtracaoTest {
 
 	@Test
 	public void test() {
-		System.out.println("calculando");
 		Subtracao sub = new Subtracao();	
-		double resultado = sub.doCalcular(1, 1);
+		double resultado = sub.doCalcular(9, 7);
 		
-		double checagem = 1 - 1;
+		double checagem = 9 - 7;
 		
 		assertEquals(String.valueOf(resultado), String.valueOf(checagem));
 	}

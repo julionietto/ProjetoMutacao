@@ -23,6 +23,9 @@
     	<artifactId>pitest-maven</artifactId>
     	<version>1.7.5</version>
     	<configuration>
+          <targetTests>
+            <param>test.resources*</param>
+          </targetTests>
           <skip>false</skip>
             <reportsDirectory>C:\Users\4052131\eclipse-workspace\ProjetoMutacao\target\results</reportsDirectory>
             <sourceDataFormats>
