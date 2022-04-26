@@ -10,14 +10,11 @@ public class DivisaoTest {
 
 	@Test
 	public void test() {
-//		Divisao div = new Divisao();	
-//		double resultado = div.doCalcular(45, 5);
-//		
-//		double checagem = 45 / 5;
-//		
-//		assertEquals(String.valueOf(resultado), String.valueOf(checagem));
+		Divisao div = new Divisao();	
+		double resultado = div.doCalcular(45, 5);
 		
-		assert(true);
+		double checagem = 45 / 5;
+		
+		assertEquals(String.valueOf(resultado), String.valueOf(checagem));
 	}
-
 }
