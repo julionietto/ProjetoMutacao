@@ -17,5 +17,4 @@ public class DivisaoTest {
 		
 		assertEquals(String.valueOf(resultado), String.valueOf(checagem));
 	}
-
 }
